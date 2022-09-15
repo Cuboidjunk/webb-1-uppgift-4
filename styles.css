@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(127, 255, 150);
+}
+
+article,
+footer {
+    background-color: lightskyblue;
+}
+
+article {
+    padding: 0 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+}
